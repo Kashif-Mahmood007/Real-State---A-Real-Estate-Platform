@@ -1,0 +1,468 @@
+@media only screen and (max-width: 368px){
+    header{
+        display: block;
+    }
+    
+    header .logo{
+        width: 100vw;
+        text-align: center;
+    }
+    
+
+    header .logo a img{
+        margin-left: 0%;
+    }
+
+   
+    header .details{
+        flex-direction: column;
+    }
+
+
+    header .details p{
+        margin: 1.3% 1%;
+    }
+
+
+    .btn-41{
+        margin-bottom: 5%;
+    }
+    
+
+
+    nav{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .listitems{
+        width: 100vw;
+    }
+    
+    .listitems ul{
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    
+    
+    .profilelogo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+
+    .listitems ul li{
+        padding-bottom: 3%;
+        border-bottom: 3px solid transparent;
+    }
+        
+        
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        height: 70vh;
+        padding: 0px 5%;
+    }
+
+
+
+    .fields{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 1%;
+    }
+
+    
+
+    
+    .fieldButtons a {
+        margin: 3% 4%; 
+    }
+    
+    .btnCustom{
+        padding: 4% 9%; 
+    }
+
+    
+
+    
+    /* Cards started from here */
+
+
+
+        
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #372BAF;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 25vh;
+        width: 100vw;
+        
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        height: 20vh;
+        margin-left: 5%;
+    }
+
+
+
+    .parallax{
+        padding: 10%;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 368px) and (max-width: 768px){
+    header{
+        display: block;
+    }
+    
+    header .logo{
+        width: 100vw;
+        text-align: center;
+    }
+    
+
+    header .logo a img{
+        margin-left: 0%;
+    }
+
+   
+    header .details{
+        flex-direction: column;
+    }
+
+
+    header .details p{
+        margin: 1.3% 1%;
+    }
+
+
+    .btn-41 {
+        margin-bottom: 5%;
+    }
+
+
+    nav{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .listitems{
+        width: 100vw;
+    }
+    
+    .listitems ul{
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    
+    
+    .profilelogo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+
+    .listitems ul li{
+        padding-bottom: 3%;
+        border-bottom: 3px solid transparent;
+    }
+
+
+
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        height: 70vh;
+        padding: 0px 5%;
+    }
+
+
+
+    .fields{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 1%;
+    }
+
+
+    
+    .fieldButtons a {
+        margin: 3% 4%; 
+    }
+    
+    .btnCustom{
+        padding: 4% 9%; 
+    }
+
+
+    
+
+
+    /* Cards started from here */
+
+        
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #372BAF;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 25vh;
+        width: 100vw;
+    
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        height: 22vh;
+        margin-left: 5%;
+    }
+
+
+
+    .parallax{
+        padding: 10%;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 910px){
+    header{
+        display: block;
+    }
+    
+    header .logo{
+        text-align: center;
+        width: 100vw;
+    }
+    
+    header .logo a img{
+        margin-left: 0%;
+    }
+    
+    
+    .listitems{
+        width: 80vw;
+    }
+
+    .profilelogo{
+        margin-top: 1%;
+        margin-left: 10%;
+        transition: all 0.3s ease;
+    }
+
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        height: 70vh;
+        padding: 0px 5%;
+    }
+
+
+
+    .fields{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 1%;
+    }
+
+
+    .fieldButtons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .fieldButtons a {
+        margin: 3% 4%; 
+    }
+    
+    .btnCustom{
+        padding: 4% 9%; 
+    }
+    
+    
+
+    
+    
+    /* Cards started from here */
+
+        
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #372BAF;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 35vh;
+        width: 100vw;
+    
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+        width: 40vw;
+    }
+
+
+    .assosories{
+        display: block;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        display: block;
+        height: 13vh;
+        width: 60vw;
+        position: relative;
+        margin-left: 60%;
+        margin-top: 50%;
+    }
+
+
+    .parallax{
+        padding: 10%;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 910px) and (max-width: 1050px){
+        /* Cards started from here */
+
+        
+        .bordercards{
+            width: 10%; 
+            border-top: 2px solid #372BAF;
+            margin: 20px 0; 
+        }
+    
+    
+    
+        .cardImage{
+            height: 35vh;
+            width: 100vw;
+        
+        }
+    
+        /* second column of card */
+    
+        .second-column-card{
+            margin-top: 8%;
+            width: 40vw;
+        }
+    
+    
+        .assosories{
+            display: block;
+        }
+    
+    
+    
+        /* Third column of card */
+    
+    
+        .third-column-card{
+            display: block;
+            height: 13vh;
+            width: 60vw;
+            position: relative;
+            margin-left: 60%;
+            margin-top: 50%;
+        }
+    
+}
+
+
+
+@media only screen and (min-width: 910px) and (max-width: 1100px){
+    header{
+        display: block;
+    }
+    
+    header .logo{
+        text-align: center;
+        width: 100vw;
+    }
+    
+    header .logo a img{
+        margin-left: 0%;
+    }
+    
+    
+    .listitems{
+        width: 80vw;
+    }
+
+    .profilelogo{
+        margin-top: 1%;
+        margin-left: 10%;
+        transition: all 0.3s ease;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1366px){
+    
+}

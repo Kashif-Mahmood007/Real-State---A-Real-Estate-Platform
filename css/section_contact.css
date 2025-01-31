@@ -1,0 +1,43 @@
+.contact-section{
+    background-image: url('../images/unfocused-view-tidy-living-room.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 30px;
+    display: flex;
+    justify-content: flex-start;
+    background-attachment: fixed;
+}
+.contact-section .top h2, .contact-section .top p{
+color: white;   
+text-shadow: 2px 2px 4px #3e3e3e;
+}
+.contact-section .bottom h2, .contact-section .bottom p{
+    color: white;   
+    text-shadow: 2px 2px 4px #515151;
+    }
+.top{
+    align-self: flex-start;
+}
+.bottom{
+    align-self: flex-end;
+    margin-top: 30px;
+}
+.form-section{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+.form-divider{
+    width: 70%;
+    margin-left: 100px;
+}
+.submit-btn{
+    width: 100%;
+    background-color: rgb(27, 147, 202);
+    color: white;
+}
+.submit-btn:hover{
+    background-color: rgb(65, 175, 223);
+}
